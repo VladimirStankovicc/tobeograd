@@ -1,0 +1,762 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: padding	-box;
+}
+body{
+	background-color:#F8F0E3;
+	font-family: 'Merriweather', serif;
+	font-size:20px;
+}
+iframe{
+	border-bottom-width:5px;
+	width:450px;
+	height:450px;
+	border-top:100px;
+}
+p {
+    text-indent: 50px;
+}
+#heder ul{
+	list-style-type:none;
+}
+#heder input{
+	border-radius:5px;
+	box-shadow:2px 2px 1px;
+	padding:3px 0px; 
+}
+a {
+	text-decoration: none;
+}
+.cistac {
+	clear: both;
+}
+.kalup {
+	margin:0px auto;
+	width:1100px; 
+} 
+#heder {
+	width:100%;
+	position:fixed;
+	top:0px;
+	z-index:2;
+	border-bottom:4px solid rgb(71,35,35);
+	padding-top:20px;
+	background-color:#EDE6D6;
+	box-shadow:2px 2px 2px gray;
+}
+#serc{
+	border-radius:60px;
+	position:absolute;
+	top:110px;
+	right:230px;
+}
+#logo{
+	width:5%;
+	border-radius: 50%;
+	float:left;
+	margin:5px;
+}
+nav{
+	float:right;
+	text-align:center;
+	margin-top:20px;
+	
+} 	
+nav ul li {
+	display:block;
+	float:left;
+	margin-right:20px;
+	padding:20px;
+}
+nav ul li a{
+	font-size:18px;
+	color:rgba(18,5,50,1.0);
+}
+nav ul li a:hover{
+	font-weight:bold;
+	font-size:25px;
+}
+#gradd{
+	width:100%;
+	display:flex;
+	align-items:center; 
+	justify-content:space-around;
+	padding:30px 50px;
+	align-items:center;
+}
+#gradd img{
+	width:90%;
+	
+
+}
+#panorama6{
+    border-bottom-right-radius: 2%;
+	border-bottom-left-radius: 2%;
+	border-top-right-radius: 2%;
+	border-top-left-radius: 2%;
+	width:100%;
+	height:380px;
+	background-image: url("../img/kalis2.jpg");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:30px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+	
+}
+#panorama5{
+    border-bottom-right-radius: 2%;
+	border-bottom-left-radius: 2%;
+	border-top-right-radius: 2%;
+	border-top-left-radius: 2%;
+	width:100%;
+	height:380px;
+	background-image: url("../img/bgnavodi2.jpg");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:30px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+	
+}
+}
+#panorama5 #naslov5 {
+	border-radius:95px;
+}
+#naslov5 h1{
+	text-shadow:1px 1px 1px;
+}
+#naslov5:hover{
+	background-color:#fff;
+}
+#panorama43{
+    border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+	width:100%;
+	height:470px;
+	background-image: url("../img/hram7.jpg");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:30px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+}
+#panorama4{
+    border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+	width:100%;
+	height:470px;
+	background-image: url("../img/begee.jpg");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:30px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+}
+}
+
+/*#naslov4{
+	width:35%;
+	padding:30px 0px;
+	background-color:rgba(255,255,255,0.6);
+	text-align:center;
+}*/
+#panorama3{
+    border-bottom-right-radius: 5%;
+	border-bottom-left-radius: 5%;
+	border-top-right-radius: 5%;
+	border-top-left-radius: 5%;
+	width:100%;
+	height:470px;
+	background-image: url("../img/hram7.jpg");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:30px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+}
+}
+#panorama3 #naslov3 {
+	border-radius:33px;
+}
+#naslov3 h1{
+	text-shadow:1px 1px 1px;
+}
+#naslov3:{
+	background-color:#;
+}
+#naslov3{
+	width:15%;
+	padding:30px 0px;
+	background-color:rgba(255,255,255,0.6);
+	text-align:center;
+}
+
+/*panorama2*/
+#panorama2{
+    clip-path: circle(100% at 50% -50%);
+	width:100%;
+	height:570px;
+	background-image: url("../img/bgslika.png");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:30px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+}
+/*panorama1*/
+#panorama{
+    border-bottom-right-radius: 10%;
+	 border-bottom-left-radius: 10%;
+	width:100%;
+	height:570px;
+	background-image: url("../img/bgslika.png");
+	background-attachment:fixed;
+	background-position:0px 20px;
+	background-size:cover;
+	margin-top:160px;
+	display:flex;
+	align-items:center; 
+	justify-content:center;
+	
+}
+#panorama #naslov {
+	border-radius:95px;
+}
+#naslov h1{
+	text-shadow:2px 2px 1px;
+}
+#naslov:hover{
+	background-color:#fff;
+}
+#naslov{
+	width:15%;
+	padding:30px 0px;
+	background-color:rgba(255,255,255,0.6);
+	text-align:center;
+}
+#naslov a{
+	color:rgba(0,0,0,0.8);
+}
+#karta{
+	width:100%;
+	display:flex;
+	align-items:center-left; 
+	justify-content:space-around;
+	padding:25px 0px;
+	
+}
+ #kalemegdan{
+    
+    margin-right:20px;
+	
+}
+#kalemegdan img{
+    border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;    
+}
+#opste{
+	width:50%;
+	  /*border-bottom-right-radius: 50%;
+	  border-bottom-left-radius: 50%;*/
+}
+#opste h1{
+	text-align:center;
+	padding:10px 0px;
+	font-weight: bold;
+	text-shadow:1px 1px 1px;
+	font-size:30px;
+}
+#opste p{
+	text-align:justify;
+	padding:10px;
+}
+#istorijat{
+	width:100%;
+	display:flex;
+	align-items:center; 
+	justify-content:space-around;
+	padding:30px 0px;
+	align-items:center;
+}
+#ukratko{
+	width:50%;
+}
+#knez {
+	width:25%;
+}
+#knez img{
+	width:200%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+}
+#ukratko h1{
+	text-align:center;
+	padding:20px 0px;
+	font-weight: bold;
+	text-shadow:1px 1px 1px;
+}
+#ukratko p{
+	text-align:justify;
+	padding:10px;
+}
+.hepen{
+	box-shadow:0px 3px 0px rgba(0,0,0,0.5);
+}
+#desavanja{
+	margin:0px auto;
+	width:90%;
+	display: flex;
+	justify-content:space-around;
+	padding:20px 0px;
+}
+#desavanja h1{
+	font-size:20px;
+}
+#desavanja a{
+	text-decoration:underline;
+	color:rgb(19,19,19);
+}
+.paketi{
+	width:25%; 
+}
+#futer{
+	width:100%;
+	background-color:#EDE6D6;
+	padding:10px 0px;
+	color:#;	
+}
+#ravn{
+	width:100%;
+	display: flex;
+	justify-content:space-around;	
+	align-items:center;
+}
+#ravn p{
+	text-indent: 0px;
+}
+#kraj p{
+	padding:30px;
+	color:#black;
+}
+#drustvene li {
+	display: inline-block;
+	margin-left:40px;
+	
+}
+#drustvene li a{
+	color:black;
+	padding:3px;
+}
+/*kontakt*/
+#kofer{
+	border-bottom:9px
+	
+}
+#kontakt{
+	margin-top:150px;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+	align-items:center;
+}
+#kontakt form {
+	padding:20px 0px;
+}
+#kontakt input{
+	padding: 7px 14px;
+}
+#kontakt input,#kontakt textarea{
+	border-radius:10px;
+	box-shadow:5px 5px 5px;
+}
+#koferce h1{
+	font-size:20px;
+}
+#koferce p{
+	 text-indent: 0px;
+}
+/*galerija*/
+#galerija{
+	width:100%;
+	padding:20px 0px;
+	margin-top:161px;
+}
+#galerija p {
+    text-indent: 2px;
+}
+.sl{
+	width:435px;
+	height:236px;
+}
+.a{
+	background-image:url("../img/.jpg");
+	background-position:0px 0xp;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.a img{
+	width:100%;
+	float:left;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+   	
+}
+.b{
+	background-image:url("../img/.jpg");
+	background-position:435px 0px;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.b img{
+	width:100%;
+	height:102%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.v{
+	background-image:url("../img/.jpg");
+	background-position:0px 236px;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+	
+}
+.v img{
+	width:100%;
+	height:100%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.g{
+	background-image:url("../img/.jpg");
+	background-position:435px 236px;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.g img{
+	width:100%;
+	height:100%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.d{
+	background-image:url("../img/.jpg");
+	background-position:0px 0xp;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.d img{
+	width:100%;
+	height:100%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.dj{
+	background-image:url("../img/.jpg");
+	background-position:435px 0px;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.dj img{
+	width:100%;
+	height:100%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.e {
+	background-image:url("../img/.jpg");
+	background-position:0px 236px;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.e img{
+	width:100%;
+	height:100%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.y{ 
+    
+	background-image:url("../img/.jpg");
+	background-position:435px 236px;
+	width:435px;
+	height:236px;
+	float:left;
+	margin:10px;
+	position:relative;
+}
+.y img{
+	width:100%;
+	height:100%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+.naziv{
+	position:absolute;
+	bottom:10px;
+	right:10px;
+	background-color:rgba(192,192,192,0.6);
+	border-radius: 25px;
+	border:1px solid rgba(192,192,192,1.0);
+	padding:3px;
+	font-size:15px;
+	
+}
+#poddodatna{
+	width:100%;
+	float:left;
+	display:flex;
+	justify-content:center;
+}
+#poddodatna2{
+	width:100%;
+	float:left;
+	display:flex;
+	justify-content:center;
+}
+#poddodatna3{
+	width:100%;
+	float:left;
+	display:flex;
+	justify-content:center;
+}
+#poddodatna4{
+	width:100%;
+	float:left;
+	display:flex;
+	justify-content:center;
+}
+#nas{
+	width:100%;
+	display:flex;
+	justify-content:center;
+	padding:15px 0px;
+}
+/*autor*/
+#biografi{
+	margin-top:160px;
+	width:100%;
+	background-color:#fff;
+	height:500px;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding-bottom:50px;
+}
+#portret{ 
+	float:right ;
+	width:30%;
+	margin:20px;
+}
+#portret img {
+	width:60%;
+	border:5px solid rgb(97,97,97);
+}
+#textbio{
+	width:45%;
+	margin:50px 0px 0px 100px;
+	text-align:justify;
+	border:5px solid rgb(97,97,97);
+}
+#textbio p{
+	padding:15px;
+}
+#textbio h1{
+	text-align:center;
+}
+/*oBeogradu*/
+#olb{
+	margin:80px auto;
+	width:80%;
+	text-align:justify;
+	padding-top:40px;
+}
+#turizam{
+	width:100%;
+	padding-bottom:50px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#sport{
+	width:100%;
+	padding-bottom:50px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#festivali{
+	width:100%;
+	padding-bottom:50px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+#obrazovanje{
+	width:100%;
+	padding-bottom:50px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+/*izbacicu*/
+.ha {
+	width:100%;
+	display:flex;
+	justify-content:center;
+	padding:30px 0px;
+}
+.foto{
+	float:left;
+	width:435px;
+	height:300px;
+}
+.photo{
+	float:right;
+	width:435px;
+	height:300px;
+}
+.tekfest{
+	width:40%;
+	float:left;
+	text-align:justify;
+}
+/* 1 slika HRAM*/
+.car img{
+	width:75%;
+		border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%; 
+}
+/*O BGU DRUGA SLIKA*/
+.tekfest{
+	width:40%;
+	float:left;
+	text-align:justify;
+}
+.tekfest img{
+	width:60%;
+}
+/*3 slika avala*/
+.teo img{
+
+	
+	width:75%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+}
+/*NE ubacujem u cssu slike */
+.teksport{
+	padding:35px;
+	width:40%;
+	float:right;
+	text-align:justify;
+}
+/* 2 slika kališ*/
+.klub img{
+	padding:0px;
+	width:110%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+   	
+	/*border: 10px solid transparent;
+    padding: 15px;
+	border-color:fe00fd;*/
+}
+.skola img{
+	width:110%;
+	border-bottom-right-radius: 10%;
+	border-bottom-left-radius: 10%;
+	border-top-right-radius: 10%;
+	border-top-left-radius: 10%;
+   	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
