@@ -1,2 +1,0 @@
-# tobeograd
-Web dizajn sajt
